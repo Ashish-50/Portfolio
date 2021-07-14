@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/views/index.css">
+    <title>Ashish Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1 class="name">Ashish Portfolio</h1>
+        <nav>
+            <ul class="navlinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </nav>
+        <button class="btn"> <a href="#contact">Contact Me</a></button>
+    </header>
+    <section id="home">
+        <div class="main">
+             <h1 class="heading">I AM <br><span class="name">ASHISH SAINI</span><br>SOFTWARE DEVELOPER</h1>
+             <button class="btn1">Hire Me</button>
+        </div>
+    </section>
+    <section id="about">
+        <h1 class="heading ">ABOUT ME</h1>
+        <div class="pic">
+            <img src="/views/images/2.jpeg" alt="mypic">
+            <div id="intro">
+            <h2>ASHISH SAINI</h2>
+            <p>My Name is Ashish saini, I am from Rohtak, Haryana, India. currently amdoing my B-Tech from Maharshi Dayanand University. My aggregate CGPA is 7.0
+                <br>My passion is to become a software DEVELOPER and basically from server side. Along with my degree I have learnt some programming language and still learning.
+                I choosed Python for competetive programming and javascript for web development. i have learn some libraries and framework of javascript are express js and react js 
+                and MongoDB for Database. I have done Some Projects which represent my skills. I have made some API in which I used CRUD operation with Express, MongoDB, javascript and node js
+                , also I have made my own portfolio and some simple webpages. My short term goal is to join a  company to gain more knowledge and long term goal is a reputative company and live a simple life.
+                 
+
+            </p>
+            </div>
+        </div>
+
+    </section>
+    <section id="portfolio">
+        <h1 class="heading">Portfolio</h1>
+        <div class="gallery">
+            <a href="https://github.com/Ashish-50/JSON-Restful-API-/blob/main/server.js" target="__blank">
+            <img class="portimg" src="/views/images/API.jpeg" alt="API">
+            </a>
+            <a href="https://github.com/Ashish-50/Tkinter-Notepad/blob/main/notpad.py" target="__blank">
+            <img class="portimg" src="/views/images/notepad.jpg" alt="notepad">
+            </a>
+            <a href="https://github.com/Ashish-50/netflixapp" target="__blank">
+            <img class="portimg" src="/views/images/API.jpeg" alt="API">
+            </a>
+            <a href="#" target="__blank">
+            <img class="portimg" src="/views/images/login.jpg" alt="API">
+            </a>
+        </div>
+
+    </section>
+    <section id="skills">
+        <div class="skills">
+        <h1 class="heading">My Skills</h1>
+        <li>
+            <h3 class="langhead">Python</h3><span class="bar"><span class="py"></span></span>
+        </li>
+        <li>
+            <h3 class="langhead">JavaScript</h3><span class="bar"><span class="js"></span></span>
+        </li>
+        <li>
+            <h3 class="langhead">Express js</h3><span class="bar"><span class="express"></span></span>
+        </li>
+        <li>
+            <h3 class="langhead">MongoDB</h3><span class="bar"><span class="mongo"></span></span>
+        </li>
+        <li>
+            <h3 class="langhead">HTML</h3><span class="bar"><span class="html"></span></span>
+        </li>
+        <li>
+            <h3 class="langhead">CSS</h3><span class="bar"><span class="css"></span></span>
+        </li>
+        </div>
+
+
+    </section>
+    <section id="contact">
+        <h1 class="heading">CONTACT ME</h1>
+        <form action="/msg" method="POST" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your name">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="send" id="send">
+        </form>
+
+    </section>
+</body>
+</html>
